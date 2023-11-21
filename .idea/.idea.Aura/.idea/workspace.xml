@@ -8,22 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de34607-b02b-42c4-9f88-0daf166ceea8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Actor/BP_HealthPotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Aura/Actor/AuraEffectActor.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Aura/Actor/AuraEffectActor.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aura.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Aura.uproject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/AbilitySystem/AuraAttributeSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/AbilitySystem/AuraAttributeSet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/AbilitySystem/AuraAttributeSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/AbilitySystem/AuraAttributeSet.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Aura.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Aura.Build.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Characters/BaseCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Characters/BaseCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Characters/BaseCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Characters/BaseCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Characters/EnemyCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Characters/EnemyCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Characters/EnemyCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Characters/EnemyCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Characters/PlayerCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Characters/PlayerCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Characters/PlayerCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Characters/PlayerCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Player/AuraPlayerState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Player/AuraPlayerState.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Player/AuraPlayerState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Player/AuraPlayerState.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +40,12 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Unreal Projects/ProjectAqua/Source/Aura/Aura.Build.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2YM6nAK5LKaspNGiyFKaNod30Aa" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -80,6 +65,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.sourceCode.C++",
     "vue.rearranger.settings.migration": "true"
   },
@@ -165,6 +151,7 @@
       <workItem from="1700323274879" duration="32000" />
       <workItem from="1700323323006" duration="1792000" />
       <workItem from="1700325179138" duration="11639000" />
+      <workItem from="1700422194149" duration="3047000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup, character/enemy movement">
       <option name="closed" value="true" />
@@ -190,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700326628153</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="GAS &amp; replication logic">
+      <option name="closed" value="true" />
+      <created>1700422800572</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700422800572</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +198,8 @@
     <MESSAGE value="Initial project setup, character/enemy movement" />
     <MESSAGE value="add gameplay ability system" />
     <MESSAGE value="gameplay ability system entities" />
-    <option name="LAST_COMMIT_MESSAGE" value="gameplay ability system entities" />
+    <MESSAGE value="GAS &amp; replication logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="GAS &amp; replication logic" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
